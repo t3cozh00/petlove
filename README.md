@@ -25,9 +25,9 @@ so the current Git history does not reflect each teammate's original commits.
 
 ## 🛠️ Tech Stack
 
-- **Frontend:** JavaScript, React
+- **Frontend:** JavaScript, HTML/CSS
 - **Backend:** Node.js, Express (MRC – Model, Route, Controller structure)
-- **Database:** MongoDB
+- **Database:** PostgreSQL
 - **Auth:** JWT
 - **Email:** Nodemailer
 
@@ -49,8 +49,7 @@ I was mainly responsible for the **pet registration feature**, including:
 
 - Designing the pet registration flow for logged-in users.
 - Implementing the frontend form (pet name, type, age, description, location, etc.).
-- Adding form validation and clear error messages for invalid input.
-- Integrating the form with the backend API and **JWT based authentication**,  
+- Integrating the form with the backend API and JWT based authentication,  
   so only authenticated users can register pets.
 - Testing the end-to-end flow together with teammates (from pet registration to adoption requests).
 
